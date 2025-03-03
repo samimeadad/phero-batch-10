@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mixed Selectors</title>
+        <style>
+            <!-- * {
+            < !-- margin: 0;
+            -->
+        <!-- padding: 0; --> -->
+        }
+
+        <!-- p { -->
+        <!-- color: red; -->
+        <!-- font-weight: bold; -->
+        <!-- } -->
+
+        #fifth,
+        li {
+        color: blue;
+        font-weight: bold;
+        font-size: 26px
+        }
+
+        .holud,
+        .yellow,
+        li {
+        background-color: yellow;
+        }
+
+        .bold {
+        font-weight: 900;
+        font-size: 36px
+        }
+        input[type="password"]{
+        background-color: lightblue;
+        color: darkblue;
+        font-size: 20px;
+        }
+        .spanClass{
+        color: green;
+        font-weight: 900;
+        font-size: 36px
+        }
+        .blog{
+        background-color: lightcoral;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid darkred;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.5s, color 0.5s;
+        cursor: pointer;
+        overflow: hidden;
+        text-align: left;
+        transform: scale(1);
+        will-change: transform;
+        width: 50%;
+        }
+        </style>
+    </head>
+
+    <body>
+        <h3>Explore <span class="spanClass">Mixed Selectors</span></h3>
+        <p class="yellow">My first line CSS Selectors</p>
+        <p>My second line CSS Selectors</p>
+        <p class="yellow bold">My third line CSS Selectors</p>
+        <p>My fourth line CSS Selectors</p>
+        <p id="fifth">My fifth line CSS Selectors</p>
+        <p>My sixth line CSS Selectors</p>
+        <p class="bold">My seventh line CSS Selectors</p>
+        <p class="holud">My eighth line CSS Selectors</p>
+        <ol>
+            <li>Element Selector</li>
+            <li>ID Selector</li>
+            <li>Class Selector</li>
+            <li>Universal Selector</li>
+        </ol>
+        <div class="blog">
+            <h3>My Blog</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero est expedita beatae impedit ut nam enim
+                exercitationem? Eum, alias. Iste, at? Dolore quo dolores libero iusto ipsa, dicta officia suscipit
+                molestiae est, sint tempore. Beatae obcaecati quisquam, iste, quidem doloribus ea non distinctio
+                eligendi suscipit odit praesentium? Impedit, esse adipisci.</p>
+        </div>
+        <p>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        </p>
+    </body>
+
+</html>
