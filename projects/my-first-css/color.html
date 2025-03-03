@@ -12,10 +12,67 @@
 
             p {
                 background-color: lightblue;
+                color: darkblue;
+                font-size: 20px;
+                text-align: center;
+                padding: 20px;
+                margin: 20px;
+                border: 1px solid darkblue;
+                border-radius: 10px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                transition: background-color 0.5s, color 0.5s;
+                cursor: pointer;
+                overflow: hidden;
+                transform: scale(1);
+                will-change: transform;
+                width: 50%;
             }
 
             li {
                 color: violet;
+            }
+
+            #alone {
+                background-color: lightcoral;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                padding: 20px;
+                margin: 20px;
+                border: 1px solid darkred;
+                border-radius: 10px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                transition: background-color 0.5s, color 0.5s;
+                cursor: pointer;
+                overflow: hidden;
+                text-align: left;
+                transform: scale(1);
+                will-change: transform;
+                width: 50%;
+            }
+
+            #alone:hover {
+                background-color: darkred;
+                color: lightcoral;
+                transform: scale(1.05);
+            }
+
+            #internal {
+                background-color: lightgreen;
+                color: darkgreen;
+                width: 50%;
+                font-size: larger;
+                font-weight: bold;
+            }
+
+            .player {
+                background-color: lightcoral;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                border: 1px solid darkred;
+                border-radius: 10px;
+                width: 25%;
             }
         </style>
     </head>
@@ -23,16 +80,17 @@
     <body>
         <h3 style="color:darkblue;">Learning Basic CSS</h3>
         <h4 style="background-color:aquamarine;">Inline CSS</h4>
-        <p>CSS meaning: Cascading Style Sheet</p>
+        <p class="player">CSS meaning: Cascading Style Sheet</p>
         <p>It is used to style the HTML elements</p>
         <p>Needs style rules and values separated by :</p>
-        <p>Syntax: element {property: value; property: value;...}</p>
+        <p class="player">Syntax: element {property: value; property: value;...}</p>
         <p>CSS Types:</p>
         <ul>
             <li>Inline CSS</li>
-            <li>Internal or Embedded CSS</li>
+            <li id="internal">Internal or Embedded CSS</li>
             <li>External CSS</li>
         </ul>
+        <p id="alone">This is a stand alone paragraph</p>
     </body>
 
 </html>
