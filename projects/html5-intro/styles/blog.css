@@ -1,0 +1,17 @@
+nav>ul>li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li>a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+#main-footer {
+    margin-top: 50px !important;
+    text-align: center;
+}

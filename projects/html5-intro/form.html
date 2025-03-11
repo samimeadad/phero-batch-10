@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jamal er Ma er Pitha Ghar</title>
+        <link rel="stylesheet" href="styles/form.css">
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <section>
+                <h1>Jamal er Ma er Pitha Ghar</h1>
+                <p>Jamal er Ma er Pitha Ghar is a fictional restaurant located in Bangladesh, which specializes in
+                    authentic Indian cuisine. The restaurant has been serving delicious and tasty dishes since 2012.</p>
+                <h2>Please Fill The Form</h2>
+                <form action="/submit" method="post">
+                    <label for="name">Name:
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    </label>
+                    <label for="email">Email:
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </label>
+                    <label for="phone">Phone:
+                        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone" required>
+                    </label>
+
+                    <fieldset>
+                        <legend>Choose Your Favorite Pitha</legend>
+                        <label for="bhapa">
+                            <input type="radio" id="bhapa" name="pitha" value="bhapa" required>
+                            Bhapa Pitha
+                        </label>
+                        <label for="chitoy">
+                            <input type="radio" id="chitoy" name="pitha" value="chitoy" required>
+                            Chitoy Pitha
+                        </label>
+                        <label for="pakkon">
+                            <input type="radio" id="pakkon" name="pitha" value="pakkon" required>
+                            Pakkon Pitha
+                        </label>
+                        <label for="mera">
+                            <input type="radio" id="mera" name="pitha" value="mera" required>
+                            Mera Pitha
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choose Your Favorite Bhorta</legend>
+                        <label for="begun">
+                            <input type="checkbox" id="begun" name="bhorta" value="begun">
+                            Begun Bhorta
+                        </label>
+                        <label for="shorisha">
+                            <input type="checkbox" id="shorisha" name="bhorta" value="shorisha">
+                            Shorisha Bhorta
+                        </label>
+                        <label for="shutki">
+                            <input type="checkbox" id="shutki" name="bhorta" value="shutki">
+                            Shutki Bhorta
+                        </label>
+                        <label for="daal">
+                            <input type="checkbox" id="daal" name="bhorta" value="daal">
+                            Daal Bhorta
+                        </label>
+                        <label for="alu">
+                            <input type="checkbox" id="alu" name="bhorta" value="alu">
+                            Alu Bhorta
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Instructions</legend>
+                        <textarea name="special" id="special" cols="100" rows="10"></textarea>
+                    </fieldset>
+                    <input type="reset" id="reset" name="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
