@@ -6,54 +6,82 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Table</title>
         <link rel="stylesheet" href="styles/table.css">
+        <link rel="stylesheet" href="styles/nav.css">
     </head>
 
     <body>
-        <h1>HTML Table</h1>
-        <table>
-            <caption>Employee Salary Data</caption>
-            <thead>
-                <tr>
-                    <th>No.</th>
-                    <th>Full Name</th>
-                    <th>Position</th>
-                    <th>Salary</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Bill Gates</td>
-                    <td>Founder Microsoft</td>
-                    <td>$1000</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Steve Jobs</td>
-                    <td>Founder Apple</td>
-                    <td>$1200</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Larry Page</td>
-                    <td>Founder Google</td>
-                    <td>$1500</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Mark Zuckerberg</td>
-                    <td>Founder Facebook</td>
-                    <td>$1300</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">
-                        <strong>Total Employee: 4</strong>
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>HTML Table</h1>
+                <table>
+                    <caption>Employee Salary Data</caption>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Full Name</th>
+                            <th>Position</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Bill Gates</td>
+                            <td>Founder Microsoft</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Steve Jobs</td>
+                            <td>Founder Apple</td>
+                            <td>$1200</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Larry Page</td>
+                            <td>Founder Google</td>
+                            <td>$1500</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Mark Zuckerberg</td>
+                            <td>Founder Facebook</td>
+                            <td>$1300</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">
+                                <strong>Total Employee: 4</strong>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Table Tags</h2>
+                <ul>
+                    <li><code>&lt;table&gt;</code> - defines a table</li>
+                    <li><code>&lt;caption&gt;</code> - defines a table caption</li>
+                    <li><code>&lt;thead&gt;</code> - defines a group of header rows in a table</li>
+                    <li><code>&lt;tbody&gt;</code> - defines a group of body rows in a table</li>
+                    <li><code>&lt;tfoot&gt;</code> - defines a group of footer rows in a table</li>
+                    <li><code>&lt;tr&gt;</code> - defines a row in a table</li>
+                    <li><code>&lt;th&gt;</code> - defines a header cell in a table</li>
+                    <li><code>&lt;td&gt;</code> - defines a cell in a table</li>
+                </ul>
+            </section>
+        </main>
     </body>
 
 </html>
