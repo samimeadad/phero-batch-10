@@ -1,0 +1,14 @@
+.parent {
+    padding: 25px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.child {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
