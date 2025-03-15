@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML-5 Practice Task-1</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>HTML-5 Practice Task-1</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <form action="">
+                    <label for="searchLabel">Search Your Image Here:</label>
+                    <input type="text" id="searchText" name="searchText" required>
+                    <button type="submit">Search</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="images/kaaba.jpg" alt="kaaba">
+                <p><a href="http://www.google.com" target="_blank">For more click here</a></p>
+            </div>
+            <hr>
+            <div class="feedback-form">
+                <h2>Feedback Form</h2>
+                <form action="/submit" method="post">
+                    <label for="name">Name:<br>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    </label>
+                    <br><br>
+                    <label for="email">Email:<br>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </label>
+                    <br><br>
+                    <label for="phone">Phone:<br>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone" required>
+                    </label>
+                    <br><br>
+                    <label for="date">Date:<br>
+                        <input type="date" id="date" name="date" required>
+                    </label>
+                    <br><br>
+                    <label for="feedback">Feedback:<br>
+                        <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Enter Your Feedback"
+                            required></textarea>
+                    </label>
+                    <br><br>
+                    <input type="reset" id="reset" name="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+
+</html>

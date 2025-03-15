@@ -1,0 +1,11 @@
+.form-container {
+    margin: 20px auto;
+}
+
+.image-container {
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 25%;
+}
