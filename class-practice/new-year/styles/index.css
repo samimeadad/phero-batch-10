@@ -1,0 +1,46 @@
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner {
+    /* Rectangle 15 */
+    /* background-image: url("../assets/images/Banner\ Image.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%), url("../assets/images/Banner\ Image.png");
+}
+
+.banner h4 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+}
+
+.banner h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 632px;
+    margin: 0;
+}
